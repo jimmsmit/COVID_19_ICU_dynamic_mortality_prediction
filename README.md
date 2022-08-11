@@ -19,5 +19,5 @@ Furthermore, make sure the columns of the datasets are in the correct order and 
 
 column | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11| #12 | #13 | #14 | #15 | #16 | #17 | #18 | #19 | #20 | #21 | #22 | #23 | #24 | #25 | #26 | #27
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---|--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |---
-Variable | Age | Sex | Current length-of-stay in ICU | Systolic blood pressure | Respiratory rate | Temperature | FiO2 | SpO2/FiO2 | pO2 | pCO2 | Temperature| AVPU | ΔSpO2 | ΔHeart rate | ΔSystolic blood pressure | ΔRespiratory rate | ΔTemperature | ΔSpO2/O2 | ΔRespiratory rate | ΔTemperature | ΔSpO2/O2 | ΔRespiratory rate | ΔTemperature | ΔSpO2/O2 | ΔRespiratory rate | ΔTemperature | ΔSpO2/O2
-Unit | years | 0=female, 1=male | hours | mmHg | /min | °C | % | - | mmHg | mmHg | °C| A=0,V=1,P=2,U=3 | % | bpm | mmHg | /min | °C | %/(L/min) | /min | °C | %/(L/min) | /min | °C | %/(L/min) | /min | °C | %/(L/min)
+Variable | Age | Sex | Current length-of-stay in ICU | Systolic blood pressure | Respiratory rate | Temperature | FiO2 | SpO2/FiO2 | paO2 | paCO2 | pH| paO2/FiO2 | Base excess | CRP | Haemoglobin | White Cell Count | Urea | Magnesium | Sodium | Creatinine | Ionised calcium | Potassium | Glucose | Urea-Creatinine ratio | Chloride | Hematocrit | Platelet count
+Unit | years | 0=female, 1=male | hours | mmHg | /min | °C | % | - | mmHg | mmHg | -| - | mmol/L | mg/L | mmol/L | 10^9/L | mmol/L | mmol/L | mmol/L | μmol/L | mmol/L | mmol/L | mmol/L | - | mmol/L | fraction | 10^9/L
