@@ -1,6 +1,9 @@
 # COVID_19_ICU_dynamic_mortality_prediction
 Code to validate trained model for dynamic mortality prediction for COVID-19 patients admitted to the ICU
 
+For details of this model, see the corresponding article: 
+https://www.sciencedirect.com/science/article/pii/S2666521222000242
+
 
 ## Brief Introduction
 
@@ -9,7 +12,11 @@ These instructions go through the loading of the fitted models, pre-processing o
 
 The required dataset contains N (nuber of rows) patient samples and 36 columns, ie the variables collected for each sample. 
 
-There is a model for mortality risk within the coming 24 hours and for in-ICU mortality risk. Samples used to validate the different models should be labeled accordingly.
+There is a model for mortality risk within the coming 24 hours and for in-ICU mortality risk. 
+Samples used to validate the different models should be labeled accordingly. 
+For 24 hour mortality prediction, this means that samples which are sampled within 24 hours of in-ICU mortality are labeled as '1', and '0' otherwise.
+For in-ICU mortality prediction, this means that samples which are sampled from patients who died in the ICU are labeled as '1', and '0' otherwise.
+(see supplementary figure 2, supplementary material --> https://www.sciencedirect.com/science/article/pii/S2666521222000242#appsec1)
 
 
 Make sure the columns of the datasets contains the correct variables, are in the correct order and are in the correct units (see the table below).
